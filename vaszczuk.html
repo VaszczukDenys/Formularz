@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+</head>
+<body>
+    <h1>Formularz</h1>
+
+    <form action="#" method="POST">
+        
+        <label for="imie">Imię:</label>
+        <input type="text" id="imie" name="imie" required><br><br>
+
+        <label for="nazwisko">Nazwisko:</label>
+        <input type="text" id="nazwisko" name="nazwisko" required><br><br>
+
+      
+        <label for="data_urodzenia">Data urodzenia:</label>
+        <input type="date" id="data_urodzenia" name="data_urodzenia" required><br><br>
+
+       
+        <label for="nr_tel">Nr Tel:</label>
+        <input type="tel" id="nr_tel" name="nr_tel" required><br><br>
+
+    
+        <label for="mail">Mail:</label>
+        <input type="email" id="mail" name="mail" required><br><br>
+
+        
+        <label for="wybierz">Select:</label>
+        <select id="wybierz" name="wybierz">
+            <option value="palac_klim">Pałac Kultury</option>
+            <option value="stadion_narod">Stadion Narodowy</option>
+            <option value="musem_wp">Muzeum WP</option>
+        </select><br><br>
+
+        
+        <label>Radio:</label>
+        <input type="radio" id="radio_ok" name="radio" value="ok">
+        <label for="radio_ok">OK</label>
+        <input type="radio" id="radio_nw" name="radio" value="nw">
+        <label for="radio_nw">NW</label><br><br>
+
+        
+        <label>Checkbox:</label><br>
+        <input type="checkbox" id="pizza" name="checkbox[]" value="pizza">
+        <label for="pizza">Pizza</label><br>
+        <input type="checkbox" id="mcdonald" name="checkbox[]" value="mcdonald">
+        <label for="mcdonald">McDonald's</label><br>
+        <input type="checkbox" id="kfc" name="checkbox[]" value="kfc">
+        <label for="kfc">KFC</label><br>
+        <input type="checkbox" id="chinul" name="checkbox[]" value="chinul">
+        <label for="chinul">Chinul</label><br>
+        <input type="checkbox" id="kebab" name="checkbox[]" value="kebab">
+        <label for="kebab">Kebab</label><br>
+        <input type="checkbox" id="burger" name="checkbox[]" value="burger">
+        <label for="burger">Burger</label><br>
+        <input type="checkbox" id="sush" name="checkbox[]" value="sush">
+        <label for="sush">Sushi</label><br><br>
+
+        
+        <label for="text_area">Tekst:</label><br>
+        <textarea id="text_area" name="text_area" rows="4" cols="50" placeholder="Zgłoś specjalne wymagania"></textarea><br><br>
+
+        
+        <button type="submit">Wyślij</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
